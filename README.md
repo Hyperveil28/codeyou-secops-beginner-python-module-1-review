@@ -143,3 +143,6 @@ with open("summary.txt", "w") as output_file:
     output_file.write(summary)
 
 print("Summary report written to summary.txt.")
+## This Python script analyzes login records from a text file. It reads each login attempt, separates the username, IP address, and result, then counts successful and failed logins. The script also classifies IP addresses as internal or external based on whether they start with 10. or 192.168. Finally, it checks for possible brute-force activity by identifying users with three or more failed login attempts from the same IP address.
+
+This assignment demonstrates Module 1 Python fundamentals including variables, input/output, lists, conditionals, loops, and basic file handling in a cybersecurity context.
